@@ -1,5 +1,7 @@
 'use strict';
 
+const { channel } = require('diagnostics_channel');
+
 describe('isIsogram', () => {
   const { isIsogram } = require('./isIsogram');
 
@@ -56,3 +58,7 @@ describe('isIsogram', () => {
     expect(isIsogram('PASSword')).toBe(false);
   });
 });
+
+
+
+//My channel
